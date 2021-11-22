@@ -1,0 +1,36 @@
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: rgb(122, 119, 119);
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+body {
+  background-image:url('../images/istockphoto-1090484260-612x612.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 0 .05rem .1rem  rgb(122, 119, 119);
+}
+
+.cover-container {
+  max-width: 40em;
+}
+
+/*
+ * logo
+ */
+
+.logo {
+  size: 50px;
+}
